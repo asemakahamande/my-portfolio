@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+    color: gold;
+}
+table {
+    display: flex;
+    font-family: arial, sans-serif;
+    border-collapse: collapse; 
+    /* width: 100%; */
+    width: 1000px;
+    margin-left: 490px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    color: black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

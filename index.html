@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The A.M School of Data Science and Machine Learning</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  margin-top: -30px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+  
+}
+
+/* Sticky navbar - toggles between relative and fixed,
+ depending on the scroll position. It is positioned relative until a 
+ given offset position is met in the viewport - then it "sticks" in place 
+ (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. 
+ However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>The A.M School of Data Science and Machine Learning</h1>
+  <Marquee><p style="font-size: x-large; color: rebeccapurple; font-style: italic;">Welcome to The A.M School of Data Science and Machine Learning where
+     insight are driven Purely from data </p></Marquee>
+</div>
+<div class="row">
+  <div class="side">  
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <img src="assets/my.jpg" class="fakeimg" style="height:300px;">
+    <p style="color: #1abc9c;">Asemakaha Mande(CEO)</p>
+    <!-- <p style= "display: flex; margin-left: 40px; margin-top: 0%;">(CEO)</p> -->
+    <h3 style="color: #1abc9c;"> I am a Data Scientist and a Software Engineer.</h3>
+    <p style="color: rebeccapurple;">Join me as we explore the world Data Science and Tech together.</p>
+    <P style="color: rebeccapurple;">In case you are interested in exploring the world of data science. 
+      you can start by reading the following books.</P>
+    <img src="assets/download (1).jpg"  style="height:100px;" width="200px"></img><br>
+    <img src="assets/download (2).jpg"  style="height:100px;" width="200px"></img><br>
+    <img src="assets/download (3).jpg"  style="height:100px;" width="200px"></img><br>
+    
+  </div>
+  <div class="main">
+    <h2>The Journey toward being a data Scientist</h2>
+    <h5>Latest Data science Road Map is Simplified in this Book Read and Enjoy!!!!!.</h5>
+    <img  src="assets/download (6).jpg" class="fakeimg" style="height: 200px;" ></img>
+    <p> My Famous quote</p>
+    <p>Data science is a combination of three things: quantitative analysis (for the rigor required to understand your data), programming (to process your data and act on your insights), 
+      and narrative (to help people comprehend what the data means).</p>
+    <br>
+    <h2>Diagram of Data Science Road-Map</h2>
+    <h5>Released on April 2, 2024</h5>
+    <img src="assets/images.jpg" class="fakeimg" style="height:300px;"></img>
+    <h4>Make Sure you are familiar with the following before you go into the field of data Scientist</h4>
+    <p>Programming Languages: Start with Python or R, as they are widely used in data science.</p>
+    <p>Statistics and Mathematics: Understand probability, statistics, linear algebra, and calculus.</p>
+    <p>Data Manipulation and Analysis: Learn libraries like Pandas (Python) or dplyr (R) for data manipulation.</p>
+    <div class="api">
+      <p class="magnet">Here is a robust Youtube api with resourful Data Science Books click the 
+        button below download and learn  </p>
+      <button class="glo"><a href="http://127.0.0.1:5501/requirement/api.html" id="covid">Click</a></button>
+    </div>
+    </div>
+  </div>
+<footer class="footer">
+  <ul>
+    <li class="phone">For Enquiries call:08113320219</li>
+    <li><a href="https://www.facebook.com"><img src="assets/asset/fb-logo.png"  alt="facebook logo" width="32px" height="32px"></a></li>
+    <li><a href="https://twitter.com/"><img src="assets/asset/x-logo.png" alt="X logo" width="32px" height="32px"></a></li>
+    <!-- <li><a href="https://www.instagram.com"><img src="assets/insta-logo.png" alt="instagram logo" width="32px" height="32px"></a></li> -->
+    <li><a href="https://www.tiktok.com"><img src="assets/asset/tik-logo.png" alt="tiktok logo" width="32px" height="32px"></a></li>
+    <li><a href="https://www.youtube.com"><img src="assets/asset/u-logo.jpg" alt="youtube logo" width="32px" height="32px"></a></li>
+</ul>
+</footer>
+</body>
+</html>
